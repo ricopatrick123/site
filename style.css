@@ -61,8 +61,7 @@
   #mainNav.navbar-shrink .navbar-brand span {
     font-size: 1.25em;
   }
-  #mainNav.navbar-shrink .navbar-brand span,
-#mainNav.navbar-shrink .navbar-brand .fa-gamepad {
+  #mainNav.navbar-shrink .navbar-brand span{
     height: 1.5rem;
   }
   #mainNav .navbar-nav .nav-item {
@@ -239,7 +238,7 @@
 .interests span.fa {
   font-size: 20px;
   line-height: 65px;
-  color: #00d679
+  color: #FFF
 }
 
 @media (max-width: 992px) {
