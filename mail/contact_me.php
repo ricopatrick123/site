@@ -33,7 +33,7 @@ $mail->addAddress('ricoedisona@gmail.com');
 $mail->isHTML(true);
 $mail_subject = "Website Contact Form:  $name";
 $mail_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
-$result= $_POST['name'];
+$mail->send();
 
 return true;         
 ?>
